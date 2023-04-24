@@ -52,5 +52,9 @@
     "eslint": "^8.39.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-strict-null-checks": "^0.0.21"
+  },
+  "volta": {
+    "node": "18.16.0",
+    "npm": "9.6.5"
   }
 }
