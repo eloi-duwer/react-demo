@@ -70,7 +70,8 @@ function MultiStepForm () {
 
   useOverscroll({
     callbackTopOverscroll: previousStep,
-    callbackBottomOverscroll: nextStep
+    callbackBottomOverscroll: nextStep,
+    overscrollStrength: 100
   })
 
   const methods = useForm<FormData>()
